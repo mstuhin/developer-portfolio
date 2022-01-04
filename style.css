@@ -1,12 +1,14 @@
-bodyS{font-family: 'Poppins', sans-serif;
-
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 
 }
 
 h1{
 
-        font-size: 50px;
+    font-size: 50px;
 
 }
 
@@ -16,9 +18,8 @@ h1{
 }
 
 section{
-
-display: flex;
-
+    display: flex;
+    margin-bottom: 100px;
 }
 
 .psiz1{
@@ -44,4 +45,17 @@ padding-left: 5%;
     font-weight: 700;
     padding: 10px 30px;
     border-radius: 5px;
+}
+
+.top-bannaer{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
+
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
